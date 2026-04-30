@@ -1,1 +1,6 @@
-.ruby-lsp
+/tmp
+/bin
+*.exe
+*.log
+.idea/
+.vscode/

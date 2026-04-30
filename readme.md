@@ -144,10 +144,11 @@ cmd/api                      — точка входа
 - `GET /api/v1/tasks/{id}`
 - `PUT /api/v1/tasks/{id}`
 - `DELETE /api/v1/tasks/{id}`
-
-
--`POST /api/v1/tasks/recurring`
--`GET /api/v1/recurrence-rules`
--`GET /api/v1/recurrence-rules/{id}`
+- `POST /api/v1/tasks/recurring`
+- `GET /api/v1/recurrence-rules`
+- `GET /api/v1/recurrence-rules/{id}`
+- `GET /api/v1/recurrence-rules/{id}/tasks`
+- `DELETE /api/v1/recurrence-rules/{id}/tasks`
+- `DELETE /api/v1/recurrence-rules/{id}`
 
 ![Springtrap fire](springtrap-fire.gif)
